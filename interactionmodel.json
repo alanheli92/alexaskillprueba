@@ -1,0 +1,47 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "prueba",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PruebaUno",
+                    "slots": [],
+                    "samples": [
+                        "Di hola"
+                    ]
+                },
+                {
+                    "name": "EleganciaFrancia",
+                    "slots": [],
+                    "samples": [
+                        "que elegancia"
+                    ]
+                },
+                {
+                    "name": "QueFalta",
+                    "slots": [],
+                    "samples": [
+                        "le hace falta"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
