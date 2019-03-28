@@ -1,7 +1,7 @@
 exports.handler = (event, context, callback) => {
     switch (event.request.type) {
         case "LaunchRequest":
-            context.succeed(generateResponse(buildSpeechletResponse("En que puedo ayudarte", false)))
+            context.succeed(generateResponse(buildSpeechletResponse("Que Pachuca por Toluca", false)))
         break;
         case "IntentRequest":
             switch (event.request.intent.name) {
