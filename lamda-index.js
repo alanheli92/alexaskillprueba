@@ -5,15 +5,23 @@ exports.handler = (event, context, callback) => {
         break;
         case "IntentRequest":
             switch (event.request.intent.name) {
-                case "PruebaUno":
-                    context.succeed(generateResponse(buildSpeechletResponse("Si ya se la sa pa que se la pla", true)))
+                case "VayaVaya":
+                    context.succeed(generateResponse(buildSpeechletResponse("Tacubaya", false)))
                 break;
-                case "EleganciaFrancia":
-                    context.succeed(generateResponse(buildSpeechletResponse("La de Francia", true)))
+                case "NoConoce":
+                    context.succeed(generateResponse(buildSpeechletResponse("mejor ni vaya", false)))
                 break;
-                case "QueFalta":
-                    context.succeed(generateResponse(buildSpeechletResponse("¡Pimienta Negra! recien molida", true)))
+                case "AjaAja":
+                    context.succeed(generateResponse(buildSpeechletResponse("Y traca traca la matraca", false)))
                 break;
+                case "YupiYupi":
+                    context.succeed(generateResponse(buildSpeechletResponse("El muñeco chuqui", false)))
+                break;
+                case "CuandoQuiera":
+                    context.succeed(generateResponse(buildSpeechletResponse("Caigale", false)))
+                break;
+                case "AquiSiHay":
+                    context.succeed(generateResponse(buildSpeechletResponse("Con queso las quesadillas", true)))
             }
         break;
     }

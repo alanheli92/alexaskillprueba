@@ -20,24 +20,45 @@
                     "samples": []
                 },
                 {
-                    "name": "PruebaUno",
+                    "name": "VayaVaya",
                     "slots": [],
                     "samples": [
-                        "Di hola"
+                        "vaya vaya"
                     ]
                 },
                 {
-                    "name": "EleganciaFrancia",
+                    "name": "NoConoce",
                     "slots": [],
                     "samples": [
-                        "que elegancia"
+                        "si no conoce"
                     ]
                 },
                 {
-                    "name": "QueFalta",
+                    "name": "AjaAja",
                     "slots": [],
                     "samples": [
-                        "le hace falta"
+                        "aja aja la baraja"
+                    ]
+                },
+                {
+                    "name": "YupiYupi",
+                    "slots": [],
+                    "samples": [
+                        "yupi yupi"
+                    ]
+                },
+                {
+                    "name": "CuandoQuiera",
+                    "slots": [],
+                    "samples": [
+                        "y cuando quiera"
+                    ]
+                },
+                {
+                    "name": "AquiSiHay",
+                    "slots": [],
+                    "samples": [
+                        "que aqui si hay"
                     ]
                 }
             ],
